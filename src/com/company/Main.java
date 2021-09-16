@@ -36,11 +36,11 @@ public class Main {
 
         if (resultMinus == resultPlus) {
             System.out.println("ax2 + bx + c = 0");
-            System.out.println("" + a + " * " + x + "^2 + "+ b + " * " + x + " + " + c + " = " + resultMinus);
+            System.out.println("" + a + " * " + x + "^2 + "+ b + " * " + x + " + " + c + " = " + resultMinus); //TODO Simplificer println ved hjælp af variable
         } else {
             System.out.println("ax2 + bx + c = 0");
-            System.out.println("" + a + " * " + x + "^2 + "+ b + " * " + x + " + " + c + " = " + resultMinus);
-            System.out.println("" + a + " * " + x2 + "^2 + "+ b + " * " + x2 + " + " + c + " = " + resultMinus);
+            System.out.println("" + a + " * " + x + "^2 + "+ b + " * " + x + " + " + c + " = " + resultMinus); //TODO Simplificer println ved hjælp af variable
+            System.out.println("" + a + " * " + x2 + "^2 + "+ b + " * " + x2 + " + " + c + " = " + resultMinus); //TODO Simplificer println ved hjælp af variable
         }
     }
 
